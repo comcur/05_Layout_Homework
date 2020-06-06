@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #f1f1f1;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+.container {
+	max-width: 1168px;
+	margin: 0 auto;
+}
+
+.btn {
+	height: 70px;
+	padding: 0 10px;
+	font-size: 16px;
+	line-height: 1;
+	text-align: center;
+	color: #fff;
+	background-color: #cc9933;
+	border: 1px solid #cc9933;
+	border-radius: 12px;
+}
+
+.reservation-forms-btn {
+	width: 159px;
+}
+
+.placement-place-btn {
+	height: 41px;
+	width: 100px;
+	padding: 0 10px;
+	font-size: 16px;
+	line-height: 1;
+	text-align: center;
+	color: #cc9933;
+	background-color: #fff;
+	border: 1px solid #cc9933;
+	border-radius: 12px;
+}
+
+.header {
+	padding: 30px 0;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+}
+
+.header-tel {
+	color: #666666;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.header-lk {
+	color: #cc9933;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.nav-container {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	height: 70px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 12px;
+}
+
+.header-lk {
+	margin-left: auto;
+}
+
+.header-tel {
+	padding-left: 25px;
+}
+
+.header-list {
+	display: flex;
+	align-items: center;
+}
+
+.header-list-item {
+	margin-left: 48px;
+}
+
+/*.header-list-item-search {
+	margin-left: 100px;
+	width: 355px;
+	height: 48px;
+	background-color: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	border-radius: 15px;
+}*/
+
+.header-link {
+	color: #333333;
+}
+
+.input-nav {
+	margin-left: 50px;
+	padding-left: 20px;
+	width: 355px;
+	height: 48px;
+	background-color: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	border-radius: 15px;
+}
+
+.first-container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.input {
+	width: 518px;
+	height: 70px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 12px;
+}
+
+.spec-offer {
+	background-image: url(/img/22.png);
+}

@@ -4,45 +4,88 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<title>Lagoona</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header>
-		<div class="container">
+	<header class="header">
+		<div class="container header-container">
 			<a href="/" class="header-logo">
 				<img src="/img/Logo_Lagoona.png" alt="Logo">
 			</a>
-			<a href="tel:+74953225448">
+			<a href="tel:+74953225448" class="header-tel">
 				+7 495 322-54-48
 			</a>
-			<a href="/">
+			<a href="/" class="header-lk">
 				Личный кабинет
 			</a>
-			<div class="navigation">
-				<nav class="header-nav">
-					<ul class="header-list">
-						<li class="header-list-item">О нас</li>
-						<li class="header-list-item">Услуги</li>
-						<li class="header-list-item">Преимущества</li>
-						<li class="header-list-item">Размещение</li>
-						<li class="header-list-item">Блог</li>
-						<li class="header-list-item">Контакты</li>
-					</ul>
-				</nav>
-			</div>
+		</div>
+		<div class="container nav-container">
+			<!--<div class="navigation">-->
+			<nav class="header-nav">
+				<ul class="header-list">
+					<li class="header-list-item">
+						<a href="#" class="header-link">
+							О нас
+						</a>
+					</li>
+					<li class="header-list-item">
+						<a href="#" class="header-link">
+							Услуги
+						</a>
+					</li>
+					<li class="header-list-item">
+						<a href="#" class="header-link">
+							Преимущества
+						</a>
+					</li>
+					<li class="header-list-item">
+						<a href="#" class="header-link">
+							Размещение
+						</a>
+					</li>
+					<li class="header-list-item">
+						<a href="#" class="header-link">
+							Блог
+						</a>
+					</li>
+					<li class="header-list-item">
+						<a href="#" class="header-link">
+							Контакты
+						</a>
+					</li>
+					<li class="header-list-item">
+						<input autocomplete="off" type="text" name="search" placeholder="Поиск" class="input-nav">
+					</li>
+				</ul>
+			</nav>
+			<!--</div>-->
 		</div>
 	</header>
 	<main>
 
 		<section class="section-first">
-			<div class="container">
+			<div class="container first-container">
 				<div class="reservation-forms">
 					<h2 class="title">
 						Быстрая бронь
 					</h2>
-					<!--Саму форму с полями ввода, с кнопкой и текстом справа от кнопки пока пропускаем-->
+					<p><input autocomplete="off" type="text" name="city" placeholder="Город" class="input"></p>
+					<p><input autocomplete="off" type="text" name="category" placeholder="Категория номера" class="input">
+					</p>
+					<p><input autocomplete="off" type="text" name="date" placeholder="Дата заселения" class="input"></p>
+					<p><input autocomplete="off" type="text" name="number-nights" placeholder="Количество ночей"
+							class="input"></p>
+					<p><input autocomplete="off" type="text" name="number-guest" placeholder="Количество гостей"
+							class="input"></p>
+					<button class="reservation-forms-btn btn">
+						Найти номер
+					</button>
+					<p>
+						<a href="#" class="">9756</a> предложений доступно
+					</p>
 				</div>
 				<div class="spec-offer">
 					<h2 class="title">
@@ -180,7 +223,263 @@
 							<div class="placement-place-сountry">
 								<p>Барселона, Испания</p>
 							</div>
-							<button class="placement-place-btn">
+							<button class="placement-place-btn btn">
+								Номера
+							</button>
+						</div>
+					</li>
+					<li class="placement-item">
+						<img src="/img/02.jpg" alt="" class="placement-item-img">
+						<div class="placement-place">
+							<div class="placement-place-price">
+								<div class="placement-place-price-ot">
+									<p>от</p>
+								</div>
+								<div class="placement-place-price-cost">
+									<p>4 698 р /</p>
+								</div>
+								<div class="placement-place-price-cost-times">
+									<p> ночь</p>
+								</div>
+								<div class="placement-place-rating">
+									<img src="img/star.png" alt="Рейтинг">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star_empty.png" alt="">
+								</div>
+							</div>
+							<div class="placement-place-name">
+								<p>Lagoona española</p>
+							</div>
+							<div class="placement-place-сountry">
+								<p>Барселона, Испания</p>
+							</div>
+							<button class="placement-place-btn btn">
+								Номера
+							</button>
+						</div>
+					</li>
+					<li class="placement-item">
+						<img src="/img/03.jpg" alt="" class="placement-item-img">
+						<div class="placement-place">
+							<div class="placement-place-price">
+								<div class="placement-place-price-ot">
+									<p>от</p>
+								</div>
+								<div class="placement-place-price-cost">
+									<p>4 698 р /</p>
+								</div>
+								<div class="placement-place-price-cost-times">
+									<p> ночь</p>
+								</div>
+								<div class="placement-place-rating">
+									<img src="img/star.png" alt="Рейтинг">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star_empty.png" alt="">
+								</div>
+							</div>
+							<div class="placement-place-name">
+								<p>Lagoona española</p>
+							</div>
+							<div class="placement-place-сountry">
+								<p>Барселона, Испания</p>
+							</div>
+							<button class="placement-place-btn btn">
+								Номера
+							</button>
+						</div>
+					</li>
+					<li class="placement-item">
+						<img src="/img/04.jpg" alt="" class="placement-item-img">
+						<div class="placement-place">
+							<div class="placement-place-price">
+								<div class="placement-place-price-ot">
+									<p>от</p>
+								</div>
+								<div class="placement-place-price-cost">
+									<p>4 698 р /</p>
+								</div>
+								<div class="placement-place-price-cost-times">
+									<p> ночь</p>
+								</div>
+								<div class="placement-place-rating">
+									<img src="img/star.png" alt="Рейтинг">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star_empty.png" alt="">
+								</div>
+							</div>
+							<div class="placement-place-name">
+								<p>Lagoona española</p>
+							</div>
+							<div class="placement-place-сountry">
+								<p>Барселона, Испания</p>
+							</div>
+							<button class="placement-place-btn btn">
+								Номера
+							</button>
+						</div>
+					</li>
+					<li class="placement-item">
+						<img src="/img/05.jpg" alt="" class="placement-item-img">
+						<div class="placement-place">
+							<div class="placement-place-price">
+								<div class="placement-place-price-ot">
+									<p>от</p>
+								</div>
+								<div class="placement-place-price-cost">
+									<p>4 698 р /</p>
+								</div>
+								<div class="placement-place-price-cost-times">
+									<p> ночь</p>
+								</div>
+								<div class="placement-place-rating">
+									<img src="img/star.png" alt="Рейтинг">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star_empty.png" alt="">
+								</div>
+							</div>
+							<div class="placement-place-name">
+								<p>Lagoona española</p>
+							</div>
+							<div class="placement-place-сountry">
+								<p>Барселона, Испания</p>
+							</div>
+							<button class="placement-place-btn btn">
+								Номера
+							</button>
+						</div>
+					</li>
+					<li class="placement-item">
+						<img src="/img/06.jpg" alt="" class="placement-item-img">
+						<div class="placement-place">
+							<div class="placement-place-price">
+								<div class="placement-place-price-ot">
+									<p>от</p>
+								</div>
+								<div class="placement-place-price-cost">
+									<p>4 698 р /</p>
+								</div>
+								<div class="placement-place-price-cost-times">
+									<p> ночь</p>
+								</div>
+								<div class="placement-place-rating">
+									<img src="img/star.png" alt="Рейтинг">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star_empty.png" alt="">
+								</div>
+							</div>
+							<div class="placement-place-name">
+								<p>Lagoona española</p>
+							</div>
+							<div class="placement-place-сountry">
+								<p>Барселона, Испания</p>
+							</div>
+							<button class="placement-place-btn btn">
+								Номера
+							</button>
+						</div>
+					</li>
+					<li class="placement-item">
+						<img src="/img/07.jpg" alt="" class="placement-item-img">
+						<div class="placement-place">
+							<div class="placement-place-price">
+								<div class="placement-place-price-ot">
+									<p>от</p>
+								</div>
+								<div class="placement-place-price-cost">
+									<p>4 698 р /</p>
+								</div>
+								<div class="placement-place-price-cost-times">
+									<p> ночь</p>
+								</div>
+								<div class="placement-place-rating">
+									<img src="img/star.png" alt="Рейтинг">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star_empty.png" alt="">
+								</div>
+							</div>
+							<div class="placement-place-name">
+								<p>Lagoona española</p>
+							</div>
+							<div class="placement-place-сountry">
+								<p>Барселона, Испания</p>
+							</div>
+							<button class="placement-place-btn btn">
+								Номера
+							</button>
+						</div>
+					</li>
+					<li class="placement-item">
+						<img src="/img/08.jpg" alt="" class="placement-item-img">
+						<div class="placement-place">
+							<div class="placement-place-price">
+								<div class="placement-place-price-ot">
+									<p>от</p>
+								</div>
+								<div class="placement-place-price-cost">
+									<p>4 698 р /</p>
+								</div>
+								<div class="placement-place-price-cost-times">
+									<p> ночь</p>
+								</div>
+								<div class="placement-place-rating">
+									<img src="img/star.png" alt="Рейтинг">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star_empty.png" alt="">
+								</div>
+							</div>
+							<div class="placement-place-name">
+								<p>Lagoona española</p>
+							</div>
+							<div class="placement-place-сountry">
+								<p>Барселона, Испания</p>
+							</div>
+							<button class="placement-place-btn btn">
+								Номера
+							</button>
+						</div>
+					</li>
+					<li class="placement-item">
+						<img src="/img/09.jpg" alt="" class="placement-item-img">
+						<div class="placement-place">
+							<div class="placement-place-price">
+								<div class="placement-place-price-ot">
+									<p>от</p>
+								</div>
+								<div class="placement-place-price-cost">
+									<p>4 698 р /</p>
+								</div>
+								<div class="placement-place-price-cost-times">
+									<p> ночь</p>
+								</div>
+								<div class="placement-place-rating">
+									<img src="img/star.png" alt="Рейтинг">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star.png" alt="">
+									<img src="img/star_empty.png" alt="">
+								</div>
+							</div>
+							<div class="placement-place-name">
+								<p>Lagoona española</p>
+							</div>
+							<div class="placement-place-сountry">
+								<p>Барселона, Испания</p>
+							</div>
+							<button class="placement-place-btn btn">
 								Номера
 							</button>
 						</div>
