@@ -56,9 +56,12 @@
 							Контакты
 						</a>
 					</li>
-					<li class="header-list-item">
-						<input autocomplete="off" type="text" name="search" placeholder="Поиск" class="input-nav">
-					</li>
+					<div class="header-search__row">
+						<input autocomplete="off" type="text" name="search" placeholder="Поиск" class="header-searsh-input">
+						<a href="#" class="search-img">
+							<img src="img/search.png" alt="">
+						</a>
+					</div>
 				</ul>
 			</nav>
 			<!--</div>-->
@@ -80,28 +83,34 @@
 							class="input"></p>
 					<p><input autocomplete="off" type="text" name="number-guest" placeholder="Количество гостей"
 							class="input"></p>
-					<button class="reservation-forms-btn btn">
-						Найти номер
-					</button>
-					<p>
-						<a href="#" class="">9756</a> предложений доступно
-					</p>
+					<div class="reservation-bottom">
+						<button class="reservation-forms-btn btn">
+							Найти номер
+						</button>
+						<p>
+							<a href="#" class="reservation-number-offers">9756</a>
+						</p>
+						<p class="reservation-number-offers-text">
+							предложений доступно
+						</p>
+					</div>
 				</div>
-				<div class="spec-offer">
+				<div>
 					<h2 class="title">
 						Спецпредложение
 					</h2>
-					<p>
-						Номера категории люкс
-					</p>
-					<p>
-						от 5 000 р
-					</p>
-					<a href="/" class="more-details">Подробнее</a>
+					<div class="spec-offer">
+						<h1 class="first-heading">
+							Номера категории<br>люкс
+						</h1>
+						<p>
+							от 5 000 р
+						</p>
+						<a href="/" class="spec-offer-more-details">Подробнее</a>
+					</div>
 				</div>
 			</div>
 		</section>
-
 		<section class="about">
 			<div class="container">
 				<h2 class="title">
