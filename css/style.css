@@ -200,3 +200,7 @@ ul {
 	padding-left: 60px;
 	color: #ffcc66;
 }
+
+.second-container {
+	display: flex;
+}
