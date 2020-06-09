@@ -180,6 +180,18 @@ ul {
 	margin-left: 6px;
 }
 
+.spec-offer-more {
+	display: flex;
+	align-items: center;
+	margin-top: -44px;
+}
+
+.spec-offer-price {
+	font-size: 35px;
+	color: #fff;
+	padding-left: 40px;
+}
+
 .spec-offer-more-details {
 	background-image: url(/img/arrow_right.svg);
 	background-repeat: no-repeat;
@@ -187,4 +199,3 @@ ul {
 	padding-left: 10px;
 	color: #ffcc66;
 }
-
