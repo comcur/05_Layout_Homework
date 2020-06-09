@@ -193,9 +193,10 @@ ul {
 }
 
 .spec-offer-more-details {
+	width: 200px;
 	background-image: url(/img/arrow_right.svg);
 	background-repeat: no-repeat;
-	background-position: right;
-	padding-left: 10px;
+	background-position-x: calc(100% - 16px);
+	padding-left: 60px;
 	color: #ffcc66;
 }
