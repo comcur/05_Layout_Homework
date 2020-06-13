@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Muller' 'MullerRegular' 'MullerBold' 'MullerMedium';
+    src: 
+        url('../fonts/MullerBold.woff') format('woff'),
+        url('../fonts/MullerBold.woff2') format('woff2'),
+        url('../fonts/MullerLight.woff') format('woff'),
+        url('../fonts/MullerLight.woff2') format('woff2'),
+        url('../fonts/MullerMedium.woff') format('woff'),
+        url('../fonts/MullerMedium.woff2') format('woff2'),
+        url('../fonts/MullerRegular.woff') format('woff'),
+        url('../fonts/MullerRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -6,7 +21,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: 'Muller', 'MullerRegular', 'MullerBold', 'MullerMedium';
 	background-color: #f1f1f1;
 }
 
@@ -43,6 +58,12 @@ ul {
 .reservation-forms-btn {
 	width: 159px;
 	margin-right: 30px;
+}
+
+.title {
+	color: #333333;
+	font-size: 40px;
+	margin-left: 42px;
 }
 
 .placement-place-btn {
@@ -119,7 +140,9 @@ ul {
 }
 
 .header-link {
-	color: #333333;
+	color: #858585;
+	font-size: 16px;
+	line-height: 62px;
 }
 
 .header-searsh-input {
@@ -143,6 +166,8 @@ ul {
 .input {
 	width: 518px;
 	height: 70px;
+	font-size: 16px;
+	font-weight: 32px;
 	padding-left: 21px;
 	background-color: #fff;
 	border: 1px solid #fff;
@@ -196,9 +221,19 @@ ul {
 	width: 200px;
 	background-image: url(/img/arrow_right.svg);
 	background-repeat: no-repeat;
-	background-position-x: calc(100% - 16px);
-	padding-left: 60px;
+	background-position-x: calc(100% - 60px);
+	padding-left: 40px;
 	color: #ffcc66;
+}
+
+/*.about-container {
+	width: 1000px;
+}*/
+
+.about-text {
+	color:#666666;
+	line-height: 2.2;
+	margin-left: 42px;
 }
 
 .services-items {
