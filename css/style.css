@@ -1,16 +1,65 @@
 @font-face {
-    font-family: 'Muller' 'MullerRegular' 'MullerBold' 'MullerMedium';
-    src: 
-        url('../fonts/MullerBold.woff') format('woff'),
-        url('../fonts/MullerBold.woff2') format('woff2'),
-        url('../fonts/MullerLight.woff') format('woff'),
-        url('../fonts/MullerLight.woff2') format('woff2'),
-        url('../fonts/MullerMedium.woff') format('woff'),
-        url('../fonts/MullerMedium.woff2') format('woff2'),
-        url('../fonts/MullerRegular.woff') format('woff'),
-        url('../fonts/MullerRegular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+   font-family: 'Muller';
+   src: url('../fonts/MullerBold.woff') format('woff');
+	font-weight: 500;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Muller';
+   src: url('../fonts/MullerBold.woff2') format('woff2');
+	font-weight: 500;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Muller';
+   src: url('../fonts/MullerLight.woff') format('woff');
+	font-weight: 300;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Muller';
+   src: url('../fonts/MullerLight.woff2') format('woff2');
+	font-weight: 300;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Muller';
+   src: url('../fonts/MullerMedium.woff') format('woff');
+	font-weight: 400;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Muller';
+   src: url('../fonts/MullerMedium.woff2') format('woff2');
+	font-weight: 400;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerRegular.woff') format('woff');
+	font-weight: 200;
+	font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerRegular.woff2') format('woff2');
+	font-weight: 200;
+	font-display: swap;
+   font-style: normal;
 }
 
 * {
@@ -21,7 +70,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Muller', 'MullerRegular', 'MullerBold', 'MullerMedium';
+	font-family: 'Muller';
 	background-color: #f1f1f1;
 }
 
@@ -63,6 +112,7 @@ ul {
 .title {
 	color: #333333;
 	font-size: 40px;
+	font-weight: 200;
 	margin-left: 42px;
 }
 
@@ -131,7 +181,7 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-left: 100px;
+	margin-left: 90px;
 	width: 355px;
 	height: 48px;
 	background-color: #f1f1f1;
@@ -140,12 +190,13 @@ ul {
 }
 
 .header-link {
-	color: #858585;
+	color: #333333;
 	font-size: 16px;
 	line-height: 62px;
 }
 
 .header-searsh-input {
+	color: #bebebe;
 	padding-left: 20px;
 	border: none;
 	background-color: #f1f1f1;
@@ -160,7 +211,9 @@ ul {
 
 .first-container {
 	display: flex;
-	justify-content: space-between;  
+	justify-content: space-between;
+	outline: 1px solid black; 
+	margin-bottom: 68px;
 }
 
 .input {
@@ -169,14 +222,15 @@ ul {
 	font-size: 16px;
 	font-weight: 32px;
 	padding-left: 21px;
+	margin-bottom: 24px;
 	background-color: #fff;
 	border: 1px solid #fff;
 	border-radius: 12px;
 }
 
 .spec-offer {
-	background-image: url(/img/22.png);
-	margin-top: -24px;
+	background: url('/img/22.png') no-repeat;
+	margin-top: -11px;
 	width: 595px;
 	height: 540px;
 }
@@ -226,14 +280,17 @@ ul {
 	color: #ffcc66;
 }
 
-/*.about-container {
-	width: 1000px;
-}*/
+.about-container {
+	outline: 1px solid red;
+}
 
 .about-text {
+	max-width: 76%;
 	color:#666666;
-	line-height: 2.2;
+	font-size: 16px;
+	line-height: 32px;
 	margin-left: 42px;
+	margin-top: -20px;
 }
 
 .services-items {
@@ -248,8 +305,22 @@ ul {
 	flex: 0 0 49%;
 	background-color: white;
 	align-content: space-between;
-	border: 1px solid #fff;
+	outline: 1px solid #fff;
 	border-radius: 12px;
+}
+
+.servises-link {
+	color: #cc9933;
+	font-size: 22px;
+	margin-left: 45px;
+}
+
+.servises-link-text {
+	color: #333333;
+	font-size: 16px;
+	font-weight: 200;
+	margin-left: 45px;
+
 }
 
 .advantage-items {
