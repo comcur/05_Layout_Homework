@@ -113,6 +113,8 @@ ul {
 	color: #333333;
 	font-size: 40px;
 	font-weight: 200;
+	margin-top: 68px;
+	margin-bottom: -14px;
 	margin-left: 42px;
 }
 
@@ -293,9 +295,16 @@ ul {
 	margin-top: -20px;
 }
 
+.services-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
 .services-items {
 	display: flex;
-	height: 550px;
+	/*height: 676px;*/
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-content: space-between;
@@ -303,10 +312,20 @@ ul {
 
 .services-item {
 	flex: 0 0 49%;
+	margin-top: 24px;
 	background-color: white;
 	align-content: space-between;
-	outline: 1px solid #fff;
+	/*outline: 1px solid #fff;*/
 	border-radius: 12px;
+}
+
+.services-item-headline {
+	display: flex;
+	align-items: center;
+}
+
+.services-item-img {
+	padding-bottom: 32px;
 }
 
 .servises-link {
@@ -315,17 +334,30 @@ ul {
 	margin-left: 45px;
 }
 
+.services-item-icon {
+	margin-left: 13px;
+	height: 17px;
+}
+
 .servises-link-text {
+	max-width: 70%;
 	color: #333333;
 	font-size: 16px;
 	font-weight: 200;
+	line-height: 32px;
 	margin-left: 45px;
+	margin-top: 20px;		
+}
 
+.advantage-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
 }
 
 .advantage-items {
 	display: flex;
-	height: 320px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-content: space-between;
@@ -333,6 +365,7 @@ ul {
 
 .advantage-item {
 	flex: 0 0 23.5%;
+	margin-top: 24px;
 	background-color: white;
 	border: 1px solid #fff;
 	border-radius: 12px;
@@ -341,11 +374,29 @@ ul {
 .advantage-item-img {
 	height: 59px;
 	width: auto;
+	margin-top: 44px;
+	margin-left: 44px;
+}
+
+.advantage-link-text {
+	max-width: 70%;
+	color: #333333;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 32px;
+	margin-left: 45px;
+	margin-top: 20px;	
+}
+
+.placement-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
 }
 
 .placement-items {
 	display: flex;
-	height: 1490px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-content: space-between;
@@ -353,9 +404,14 @@ ul {
 
 .placement-item {
 	flex: 0 0 32%;
+	margin-top: 24px;
 	background-color: white;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	border-radius: 12px;
+}
+
+.placement-place-price {
+	display: flex;
 }
 
 /*Работа с карточками:
