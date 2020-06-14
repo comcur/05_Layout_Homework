@@ -113,22 +113,9 @@ ul {
 	color: #333333;
 	font-size: 40px;
 	font-weight: 200;
-	margin-top: 68px;
-	margin-bottom: -14px;
+	margin-top: 22px;
+	margin-bottom: 33px;
 	margin-left: 42px;
-}
-
-.placement-place-btn {
-	height: 41px;
-	width: 100px;
-	padding: 0 10px;
-	font-size: 16px;
-	line-height: 1;
-	text-align: center;
-	color: #cc9933;
-	background-color: #fff;
-	border: 1px solid #cc9933;
-	border-radius: 12px;
 }
 
 .header {
@@ -304,6 +291,7 @@ ul {
 
 .services-items {
 	display: flex;
+	margin-top: 0;
 	/*height: 676px;*/
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -410,9 +398,70 @@ ul {
 	border-radius: 12px;
 }
 
+.placement-place {
+	padding-bottom: 44px;
+}
+
 .placement-place-price {
 	display: flex;
+	align-items: baseline;
+	margin-left: 44px;
 }
+
+.placement-place-price-ot {
+	color: #9e9e9e;
+}
+
+.placement-place-price-cost {
+	color: #333333;
+	font-size: 22px;
+	font-weight: 500;
+	margin-left: 4px;
+}
+
+.placement-place-price-cost-times {
+	color: #333333;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.placement-place-rating {
+	margin-left: 36px;
+}
+
+.placement-place-name {
+	color: #333333;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 44px;
+	margin-top: -24px;
+}
+
+.placement-place-сountry {
+	color: #999999;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 44px;
+}
+
+.placement-place-btn {
+	height: 41px;
+	width: 100px;
+	margin-left: 44px;
+	padding: 0 10px;
+	font-size: 16px;
+	line-height: 1;
+	text-align: center;
+	color: #cc9933;
+	background-color: #fff;
+	border: 1px solid #cc9933;
+	border-radius: 12px;
+}
+
+
+
+
+
 
 /*Работа с карточками:
 5.5 Флексбокс — базовая сетка (часть 2)
