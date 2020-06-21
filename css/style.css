@@ -201,7 +201,6 @@ ul {
 .first-container {
 	display: flex;
 	justify-content: space-between;
-	outline: 1px solid black; 
 	margin-bottom: 68px;
 }
 
@@ -270,7 +269,7 @@ ul {
 }
 
 .about-container {
-	outline: 1px solid red;
+	outline: 1px solid #f1f1f1;
 }
 
 .about-text {
@@ -292,7 +291,6 @@ ul {
 .services-items {
 	display: flex;
 	margin-top: 0;
-	/*height: 676px;*/
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-content: space-between;
@@ -303,7 +301,6 @@ ul {
 	margin-top: 24px;
 	background-color: white;
 	align-content: space-between;
-	/*outline: 1px solid #fff;*/
 	border-radius: 12px;
 }
 
@@ -394,7 +391,6 @@ ul {
 	flex: 0 0 32%;
 	margin-top: 24px;
 	background-color: white;
-	/*border: 1px solid #fff;*/
 	border-radius: 12px;
 }
 
@@ -458,12 +454,22 @@ ul {
 	border-radius: 12px;
 }
 
+.placement-item-09 {
+	background-image: url(/img/09.png);
+	height: 441px;
+}
 
+.placement-item-link {
+	display: flex;
+	padding-top: 369px;
+}
 
-
-
-
-/*Работа с карточками:
-5.5 Флексбокс — базовая сетка (часть 2)
-18-19 минуты
-*/
+.placement-item-link-all {
+	width: 360px;
+	font-size: 22px;
+	background-image: url(/img/arrow_right_white.svg);
+	background-repeat: no-repeat;
+	background-position-x: calc(100% - 25px); 
+	padding-left: 40px;
+	color: white;
+}
