@@ -1,49 +1,49 @@
 @font-face {
-   font-family: 'Muller';
-   src: url('../fonts/MullerBold.woff') format('woff');
+	font-family: 'Muller';
+	src: url('../fonts/MullerBold.woff') format('woff');
 	font-weight: 500;
-   font-display: swap;
-   font-style: normal;
+	font-display: swap;
+	font-style: normal;
 }
 
 @font-face {
-   font-family: 'Muller';
-   src: url('../fonts/MullerBold.woff2') format('woff2');
+	font-family: 'Muller';
+	src: url('../fonts/MullerBold.woff2') format('woff2');
 	font-weight: 500;
-   font-display: swap;
-   font-style: normal;
+	font-display: swap;
+	font-style: normal;
 }
 
 @font-face {
-   font-family: 'Muller';
-   src: url('../fonts/MullerLight.woff') format('woff');
+	font-family: 'Muller';
+	src: url('../fonts/MullerLight.woff') format('woff');
 	font-weight: 300;
-   font-display: swap;
-   font-style: normal;
+	font-display: swap;
+	font-style: normal;
 }
 
 @font-face {
-   font-family: 'Muller';
-   src: url('../fonts/MullerLight.woff2') format('woff2');
+	font-family: 'Muller';
+	src: url('../fonts/MullerLight.woff2') format('woff2');
 	font-weight: 300;
-   font-display: swap;
-   font-style: normal;
+	font-display: swap;
+	font-style: normal;
 }
 
 @font-face {
-   font-family: 'Muller';
-   src: url('../fonts/MullerMedium.woff') format('woff');
+	font-family: 'Muller';
+	src: url('../fonts/MullerMedium.woff') format('woff');
 	font-weight: 400;
-   font-display: swap;
-   font-style: normal;
+	font-display: swap;
+	font-style: normal;
 }
 
 @font-face {
-   font-family: 'Muller';
-   src: url('../fonts/MullerMedium.woff2') format('woff2');
+	font-family: 'Muller';
+	src: url('../fonts/MullerMedium.woff2') format('woff2');
 	font-weight: 400;
-   font-display: swap;
-   font-style: normal;
+	font-display: swap;
+	font-style: normal;
 }
 
 @font-face {
@@ -51,7 +51,7 @@
 	src: url('../fonts/MullerRegular.woff') format('woff');
 	font-weight: 200;
 	font-display: swap;
-   font-style: normal;
+	font-style: normal;
 }
 
 @font-face {
@@ -59,7 +59,7 @@
 	src: url('../fonts/MullerRegular.woff2') format('woff2');
 	font-weight: 200;
 	font-display: swap;
-   font-style: normal;
+	font-style: normal;
 }
 
 * {
@@ -110,12 +110,12 @@ ul {
 }
 
 .title {
-	color: #333333;
-	font-size: 40px;
-	font-weight: 200;
 	margin-top: 22px;
 	margin-bottom: 33px;
 	margin-left: 42px;
+	font-size: 40px;
+	font-weight: 200;
+	color: #333333;
 }
 
 .header {
@@ -128,22 +128,22 @@ ul {
 }
 
 .header-tel {
-	color: #666666;
 	font-size: 22px;
 	font-weight: 400;
+	color: #666666;
 }
 
 .header-lk {
-	color: #cc9933;
 	font-size: 16px;
 	font-weight: 200;
+	color: #cc9933;
 }
 
 .nav-container {
-	margin-top: 30px;
 	display: flex;
+	margin-top: 30px;
 	align-items: center;
-	height: 70px;
+	/*height: 70px;*/
 	background-color: #fff;
 	border: 1px solid #fff;
 	border-radius: 12px;
@@ -168,9 +168,9 @@ ul {
 
 .header-search__row {
 	display: flex;
+	margin-left: 90px;
 	align-items: center;
 	justify-content: space-between;
-	margin-left: 90px;
 	width: 355px;
 	height: 48px;
 	background-color: #f1f1f1;
@@ -179,19 +179,19 @@ ul {
 }
 
 .header-link {
-	color: #333333;
 	font-size: 16px;
 	line-height: 62px;
+	color: #333333;
 }
 
 .header-searsh-input {
-	color: #bebebe;
-	padding-left: 20px;
-	border: none;
-	background-color: #f1f1f1;
 	margin-left: 10px;
 	height: 40px;
 	width: 300px;
+	padding-left: 20px;
+	border: none;
+	background-color: #f1f1f1;
+	color: #bebebe;
 }
 
 .search-img {
@@ -205,30 +205,30 @@ ul {
 }
 
 .input {
+	margin-bottom: 24px;
+	padding-left: 21px;
 	width: 518px;
 	height: 70px;
 	font-size: 16px;
 	font-weight: 32px;
-	padding-left: 21px;
-	margin-bottom: 24px;
 	background-color: #fff;
 	border: 1px solid #fff;
 	border-radius: 12px;
 }
 
 .spec-offer {
-	background: url('/img/22.png') no-repeat;
 	margin-top: -11px;
+	background: url('../img/22.png') no-repeat;
 	width: 595px;
 	height: 540px;
 }
 
 .first-heading {
-	color: white;
-	font-size: 66px;
-	line-height: 58px;
 	padding-top: 266px;
 	padding-left: 40px;
+	font-size: 66px;
+	line-height: 58px;
+	color: white;
 }
 
 .reservation-bottom {
@@ -237,14 +237,15 @@ ul {
 }
 
 .reservation-number-offers {
-	color: #cc9933;
 	font-size: 16px;
 	font-weight: 700;
+	color: #cc9933;
 }
 
 .reservation-number-offers-text {
-	color: #999999;
 	margin-left: 6px;
+	margin-right: 20px;
+	color: #999999;
 }
 
 .spec-offer-more {
@@ -254,17 +255,17 @@ ul {
 }
 
 .spec-offer-price {
+	padding-left: 40px;
 	font-size: 35px;
 	color: #fff;
-	padding-left: 40px;
 }
 
 .spec-offer-more-details {
+	padding-left: 40px;
 	width: 200px;
-	background-image: url(/img/arrow_right.svg);
+	background-image: url(../img/arrow_right.svg);
 	background-repeat: no-repeat;
 	background-position-x: calc(100% - 60px);
-	padding-left: 40px;
 	color: #ffcc66;
 }
 
@@ -274,11 +275,11 @@ ul {
 
 .about-text {
 	max-width: 76%;
-	color:#666666;
-	font-size: 16px;
-	line-height: 32px;
 	margin-left: 42px;
 	margin-top: -20px;
+	font-size: 16px;
+	line-height: 32px;
+	color:#666666;
 }
 
 .services-container {
@@ -299,8 +300,8 @@ ul {
 .services-item {
 	flex: 0 0 49%;
 	margin-top: 24px;
-	background-color: white;
 	align-content: space-between;
+	background-color: white;
 	border-radius: 12px;
 }
 
@@ -314,9 +315,9 @@ ul {
 }
 
 .servises-link {
-	color: #cc9933;
 	font-size: 22px;
 	margin-left: 45px;
+	color: #cc9933;
 }
 
 .services-item-icon {
@@ -326,12 +327,12 @@ ul {
 
 .servises-link-text {
 	max-width: 70%;
-	color: #333333;
+	margin-left: 45px;
+	margin-top: 20px;
 	font-size: 16px;
 	font-weight: 200;
 	line-height: 32px;
-	margin-left: 45px;
-	margin-top: 20px;		
+	color: #333333;
 }
 
 .advantage-container {
@@ -357,20 +358,20 @@ ul {
 }
 
 .advantage-item-img {
-	height: 59px;
-	width: auto;
 	margin-top: 44px;
 	margin-left: 44px;
+	height: 59px;
+	width: auto;
 }
 
 .advantage-link-text {
 	max-width: 70%;
-	color: #333333;
+	margin-left: 45px;
+	margin-top: 20px;
 	font-size: 16px;
 	font-weight: 200;
 	line-height: 32px;
-	margin-left: 45px;
-	margin-top: 20px;	
+	color: #333333;
 }
 
 .placement-container {
@@ -409,16 +410,16 @@ ul {
 }
 
 .placement-place-price-cost {
-	color: #333333;
+	margin-left: 4px;
 	font-size: 22px;
 	font-weight: 500;
-	margin-left: 4px;
+	color: #333333;
 }
 
 .placement-place-price-cost-times {
-	color: #333333;
 	font-size: 16px;
 	font-weight: 100;
+	color: #333333;
 }
 
 .placement-place-rating {
@@ -426,25 +427,25 @@ ul {
 }
 
 .placement-place-name {
-	color: #333333;
-	font-size: 16px;
-	font-weight: 400;
 	margin-left: 44px;
 	margin-top: -24px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333333;
 }
 
 .placement-place-сountry {
-	color: #999999;
+	margin-left: 44px;
 	font-size: 16px;
 	font-weight: 400;
-	margin-left: 44px;
+	color: #999999;
 }
 
 .placement-place-btn {
-	height: 41px;
-	width: 100px;
 	margin-left: 44px;
 	padding: 0 10px;
+	height: 41px;
+	width: 100px;
 	font-size: 16px;
 	line-height: 1;
 	text-align: center;
@@ -455,7 +456,7 @@ ul {
 }
 
 .placement-item-09 {
-	background-image: url(/img/09.png);
+	background-image: url(../img/09.png);
 	height: 441px;
 }
 
@@ -465,11 +466,11 @@ ul {
 }
 
 .placement-item-link-all {
+	padding-left: 40px;
 	width: 360px;
 	font-size: 22px;
-	background-image: url(/img/arrow_right_white.svg);
+	background-image: url(../img/arrow_right_white.svg);
 	background-repeat: no-repeat;
 	background-position-x: calc(100% - 25px); 
-	padding-left: 40px;
 	color: white;
 }
